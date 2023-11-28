@@ -16,9 +16,10 @@ public abstract class Animal {
         this.birthday = birthday;
         this.command = new ArrayList();
     }
+ 
 
     public void addCommand(String s) {
-        this.command.add(s);
+        command.add(s);
     }
 
     public void commadsList() {

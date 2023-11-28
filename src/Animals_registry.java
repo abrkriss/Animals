@@ -14,4 +14,16 @@ public class Animals_registry {
     public String toString() {
         return "Animals_registry  registry = " + String.valueOf(this.registry);
     }
+    
+    public ArrayList search(animal.birtday){
+        for (int i = 0; i < registry.size(); i++) {
+            if(registry.equals(s)){
+                System.out.println(registry);;
+            }
+            else{
+                System.out.println("Not found animal, that was born by " + s);
+            }
+        }
+    }
+    
 }
